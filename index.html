@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faraz - Develop Portfolio</title>
+    <style>
+        *{
+            margin: o;
+            padding: 0;
+        }
+   body{
+        background-color: rgba(30, 30, 162, 0.872);
+        color: white;
+   }
+     nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 55px;
+        background-color: rgb(3, 5, 49) 
+     }
+     nav ul{
+        display: flex;
+        justify-content: center;
+     }
+     nav ul li{
+        list-style: none;
+        margin: 0 23px;
+     }
+     nav ul li a{
+        text-decoration: none;
+        margin: 0 5px 0;
+        color: white;
+     }
+     nav ul li a:hover{
+        color: rgb(115, 115, 222);
+        font-size: 1.5rem;
+     }
+      main hr {
+         border: 0;
+        background-color: rgb(241, 211, 12);
+        height: 2px;
+        margin: 40px 84px;
+        
+      }
+     .left{
+        font-size: 2rem;
+     }
+     .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+     }
+     .firstSection>div{
+            width: 400px;
+            height: 400px;
+            
+     }
+     .leftSection{
+        
+        font-size: 3rem;
+        margin: 45px 0;
+        
+      }
+      .rightSection{
+        width: 80%;
+        margin: 30px 0;
+        
+      }
+   .purple{
+    color: orange;
+   }
+   text-gray{
+    color: gray;
+    
+   }
+   #element{
+    color: orange;
+   }
+   .secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+   }
+   .secondSection h1 {
+    font-size: 1.8rem;
+   }
+   .secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+   }
+   .secondSection .vertical{
+    height: 93px;
+    width: 1.2px;
+    background-color: white;
+    margin: 0 130px;
+   }
+   .image-top{
+      width: 50px;
+      position: relative;
+      top: -49px;
+      left: -9px;
+   }
+   .vertical-tittle{
+      position: relative;
+      top: 70px;
+      width: 130px;
+   }
+   .vertical-desc{
+    position: relative;
+    top: 90px;
+    color: rgb(172, 171, 171);
+    width: 140px;
+   }
+
+   .image-top1{
+      width: 35px;
+      position: relative;
+      top: -52px;
+      left: -3px;
+   }
+   footer {
+     background-color: rgb(244, 80, 206)
+      
+      
+   }
+   .footer  {
+      display: flex;
+      margin: 23px 100px;
+      justify-content: space-evenly;
+   }
+
+   .footer ul{
+   list-style: none;
+   }
+
+   .footer > div {
+      width: 223px;
+   }
+    
+    </style>
+
+</head>
+<body>
+    <header>
+
+        <nav>
+        <div class="left"> Faraz Portfolio </div>
+        <div class="right"></div>
+         <ul>
+           <li> <a href="/">  Home        </a>   </li>    
+           <li> <a href="/">   About       </a>   </li>    
+           <li> <a href="/">   Services    </a>   </li>   
+           <li> <a href="/">  Projects    </a>   </li>  
+           <li> <a href="/">  Contact Me  </a>   </li>
+        </ul>     
+    </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple"> Faraz Ahmed</span> 
+               
+                <div>and I am web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+      <img src="bg.ing.png" height="400" width="400" alt="">
+            </div>
+          
+        </section>
+
+    <hr>
+
+      <section class="secondSection">
+      <span class="text-gray">what is done so for</span>
+      
+      <h1>Work Exparice</h1>
+      
+      <div class="box">
+         <div class="vertical">
+            <img class="image-top" src="developer.png.png" alt="">
+            <div class="vertical-tittle">
+               HTML Developer (2010-2012)
+            </div>
+            <div class="vertical-desc">
+                From 2010 to 2012, I worked as an HTML developer, focusing on building and maintaining web 
+                pages using HTML4 and the emerging HTML5 standards. I was responsible 
+               
+            </div>
+         </div>
+        
+         <div class="vertical">
+            <img class="image-top" src="developer.png1.png" alt="">
+            <div class="vertical-tittle">
+               Node.js Developer(2012-2014)
+            </div>
+            <div class="vertical-desc">
+                Between 2012 and 2014, Node.js experienced rapid growth and widespread adoption as
+                a powerful tool for server-side JavaScript development. It gained popularity among 
+                developers due to its non-blocking,
+            </div>
+         </div>
+             
+           <div class="vertical">
+             <img class="image-top1" src="graphic design.jpg" alt="">
+             <div class="vertical-tittle">
+               Graphic Designer(2014-2016)
+             </div>
+             <div class="vertical-desc">
+                between 2014 and 2016, I immersed myself in the world of graphic 
+                design, refining my skills and exploring new creative avenues. During this period,
+                I focused on mastering various design software such as Adobe Illustrator, Photoshop,
+             </div>
+           </div>
+
+   
+         
+         </div>
+       
+      </div>
+      
+      
+      </section>
+
+
+    </main>
+               <footer>
+                  <div class="footer">
+                     <div class="footer-first">
+                        <h3>Faraz Ahmed Developer</h3>
+                     </div>
+                     <div class="footer-second">
+                        <ul>
+                           <li>About</li>
+                           <li>contact</li>
+                           <li>Services</li>
+                        </ul>
+                     </div>
+                     <div class="footer-third"></div>
+                     <ul>
+                        <li>About</li>
+                        <li>contact</li>
+                        <li>Services</li>
+                     </ul>
+                     <div class="footer-fourth">
+                        <ul>
+                           <li>About</li>
+                           <li>contact</li>
+                           <li>Services</li>
+                        </ul>
+                     </div>
+                  </div>
+               </footer> 
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
